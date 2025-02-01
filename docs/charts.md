@@ -2,4 +2,4 @@
 title: Block Diagram
 ---
 
-<img src="Duttenhefner-Block Diagram-314.drawio.png" width="200"/>
+![ALT TEXT](Duttenhefner-Block Diagram-314.drawio.png)
