@@ -2,4 +2,4 @@
 title: Block Diagram
 ---
 
-![Alt text](Duttenhefner-Block Diagram-314.drawio.png)
+![Alt text](ShaneDuttenhefner.github.io/Duttenhefner-Block Diagram-314.drawio.png)
