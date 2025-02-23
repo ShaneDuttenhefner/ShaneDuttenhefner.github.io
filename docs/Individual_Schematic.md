@@ -1,1 +1,3 @@
-
+---
+title: Individual Schematic
+---
