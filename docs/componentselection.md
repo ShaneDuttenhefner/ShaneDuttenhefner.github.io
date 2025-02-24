@@ -14,3 +14,25 @@ Option 3: NHD-C12864GG-RN-GBW <br> $13.32/each <br> ![Link to product](https://w
 **Choice:** Option 1: NHD-C12832A1Z-FSW-FBW-3V3 Display
 
 **Rationale**: Option 1 will provide a better user experience for our exhibit. The white background and black text will make it very easy to read and easier on the user’s eyes. The screen and pixel count is large enough to get the level of detail we plan for our exhibit game. It uses an SPI interface which is the ideal choice for communication and it is the cheapest option.
+
+##Micro Controller
+###PIC Table
+**PIC Info** | **Answer** 
+-------------|-----------
+Model | PIC18F47Q10-I/PT
+Product Page URL | ![Link to product](https://www.microchip.com/en-us/product/PIC18F47Q10)
+Datasheet URL | ![Link to product](https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F27-47Q10-Data-Sheet-40002043E.pdf)
+Application Notes URL(s) | TBD
+Vendor link | ![Link to product](https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47Q10-I-PT/10187786)
+Code Examples | TBD
+External Resources URL(s) | TBD
+Unit cost | $1.65
+Absolute Maximum Current for entire IC | 350 mA
+Supply Voltage Range | 1.8V to 5.5V
+Maximum GPIO current(per pin) | 50mA
+Supports External Interrupts? | Yes
+Required Programming Hardware, Cost, URL | ![Link to product](https://www.microchip.com/en-us/development-tool/pg164100)
+Works with MPLabX? | Yes
+Works with Microchip Code Configurator? | Yes
+
+**Role:** My role on the team is to program a display for the game of our exhibit. I will be responsible for the circuit board for an OLED display, with additional LEDs, that will provide the user with instructions for our game. The OLED will also receive data from the other boards of my team members to display the data they are recording and update the user on what they need to do to win as the game progresses.
