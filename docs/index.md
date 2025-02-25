@@ -5,17 +5,15 @@ tags:
 - tag2
 ---
 
-## My name is Shane
+This is the individual report website for Shane Duttenhefner of Team 302
 
-- This is a change
-- This is also a change
+Here you will find the following pages for my system:
 
-This | is
------|-------
-a    | table
+**Page** | **Link**
+-------------------
+Block Diagram | ![link](https://shaneduttenhefner.github.io/blockdiagram/)
+Component Selection | ![link](https://shaneduttenhefner.github.io/componentselection/)
+Schematic | ![link](https://shaneduttenhefner.github.io/Individual_Schematic/)
 
-
-### Sub-heading
-
-1. Thing 1
-2. Thing 2
+##Team Website
+![link](https://asu-egr314-2025-s-302.github.io/EGR314-2025-S-302/)
