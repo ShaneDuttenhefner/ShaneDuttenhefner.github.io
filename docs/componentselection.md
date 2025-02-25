@@ -7,9 +7,9 @@ title: Component Selection
 
 **Solution** | **Pros** | **Cons**
 -------------|----------|----------
- Option one: NHD-C12832A1Z-FSW-FBW-3V3 <br> $12.78/each <br> ![Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12832A1Z-FSW-FBW-3V3/2059236)| -128x32 pixels <br> -36.00mm W x 12.00mm H screen <br> -White background with black text | -Smaller screen <br> -Smaller pixel count
-Option 2: NHD-C12832A1Z-NSW-BBW-3V3 <br> $12.82/each <br> ![Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12832A1Z-NSW-BBW-3V3/2059235) | -128x32 pixels <br> -36.00mm W x 12.00mm H screen <br> -Blue background with white text | -Smaller screen <br> -Smaller pixel count
-Option 3: NHD-C12864GG-RN-GBW <br> $13.32/each <br> ![Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12864GG-RN-GBW/1701323) | -128x60 pixels <br> -49.53mm W x 26.67mm H screen (Largest) | -Grey background with black text <br> -Most expensive <br> -Parallel, 8-bit communication
+![image](https://github.com/user-attachments/assets/23f383de-fb10-4f5c-bf63-eac755a74c98) <br> Option one: NHD-C12832A1Z-FSW-FBW-3V3 <br> $12.78/each <br> ![Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12832A1Z-FSW-FBW-3V3/2059236)| -128x32 pixels <br> -36.00mm W x 12.00mm H screen <br> -White background with black text | -Smaller screen <br> -Smaller pixel count
+![image](https://github.com/user-attachments/assets/c4d26d8e-07fe-49e2-87f0-afc1fec357c6) <br> Option 2: NHD-C12832A1Z-NSW-BBW-3V3 <br> $12.82/each <br> ![Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12832A1Z-NSW-BBW-3V3/2059235) | -128x32 pixels <br> -36.00mm W x 12.00mm H screen <br> -Blue background with white text | -Smaller screen <br> -Smaller pixel count
+![image](https://github.com/user-attachments/assets/57250bf9-9072-4890-998a-d39ecc9d3044) <br> Option 3: NHD-C12864GG-RN-GBW <br> $13.32/each <br> ![Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12864GG-RN-GBW/1701323) | -128x60 pixels <br> -49.53mm W x 26.67mm H screen (Largest) | -Grey background with black text <br> -Most expensive <br> -Parallel, 8-bit communication
 
 **Choice:** Option 1: NHD-C12832A1Z-FSW-FBW-3V3 Display
 
