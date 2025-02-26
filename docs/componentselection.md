@@ -15,13 +15,9 @@ title: Component Selection
 
 **Rationale**: Option 1 will provide a better user experience for our exhibit. The white background and black text will make it very easy to read and easier on the user’s eyes. The screen and pixel count is large enough to get the level of detail we plan for our exhibit game. It uses an SPI interface which is the ideal choice for communication and it is the cheapest option.
 
-##Micro Controller
+## Micro Controller
 
-### Choice and Rationale
-
-For this project I have chosen the MICROCHIP PIC18F47Q10-I/PT because it is reliable, familiar, and satisfies all the requirements that a microcontroller needs for this project. This PIC supports I2C communication which is exactly what I need to communicate with my chosen OLED Display. UART is also available with this microcontroller which allows for my board to receive and send data from my teammate’s. In addition, the PIC had plenty of I/O pins for additional components such as debugging LEDs.
-
-###PIC Table
+### PIC Table
 **PIC Info** | **Answer** 
 -------------|-----------
 Model | PIC18F47Q10-I/PT
@@ -41,3 +37,12 @@ Works with MPLabX? | Yes
 Works with Microchip Code Configurator? | Yes
 
 **Role:** My role on the team is to program a display for the game of our exhibit. I will be responsible for the circuit board for an OLED display, with additional LEDs, that will provide the user with instructions for our game. The OLED will also receive data from the other boards of my team members to display the data they are recording and update the user on what they need to do to win as the game progresses.
+
+### MPLab X Configuration
+
+![image](https://github.com/user-attachments/assets/b03f7e95-7b1f-4a28-ab8e-f874545d5466)
+
+### Choice and Rationale
+
+For this project I have chosen the MICROCHIP PIC18F47Q10-I/PT because it is reliable, familiar, and satisfies all the requirements that a microcontroller needs for this project. This PIC supports I2C communication which is exactly what I need to communicate with my chosen OLED Display. UART is also available with this microcontroller which allows for my board to receive and send data from my teammate’s. In addition, the PIC had plenty of I/O pins for additional components such as debugging LEDs.
+
