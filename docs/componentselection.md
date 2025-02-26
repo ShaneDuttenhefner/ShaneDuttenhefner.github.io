@@ -44,5 +44,5 @@ Works with Microchip Code Configurator? | Yes
 
 ### Choice and Rationale
 
-For this project I have chosen the MICROCHIP PIC18F47Q10-I/PT because it is reliable, familiar, and satisfies all the requirements that a microcontroller needs for this project. This PIC supports I2C communication which is exactly what I need to communicate with my chosen OLED Display. UART is also available with this microcontroller which allows for my board to receive and send data from my teammate’s. In addition, the PIC had plenty of I/O pins for additional components such as debugging LEDs.
+For this project I have chosen the MICROCHIP PIC18F47Q10-I/PT because it is reliable, familiar, and satisfies all the requirements that a microcontroller needs for this project. This PIC supports I2C communication which is exactly what I need to communicate with my chosen OLED Display. UART is also available with this microcontroller which allows for my board to receive and send data from my teammate’s. In addition, the PIC had plenty of I/O pins for additional components such as debugging LEDs which I can use, along with PWM, to create indicator lights for the user as they play the game.
 
