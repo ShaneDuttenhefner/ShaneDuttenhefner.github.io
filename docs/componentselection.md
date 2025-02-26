@@ -16,13 +16,18 @@ title: Component Selection
 **Rationale**: Option 1 will provide a better user experience for our exhibit. The white background and black text will make it very easy to read and easier on the user’s eyes. The screen and pixel count is large enough to get the level of detail we plan for our exhibit game. It uses an SPI interface which is the ideal choice for communication and it is the cheapest option.
 
 ##Micro Controller
+
+### Choice and Rationale
+
+For this project I have chosen the MICROCHIP PIC18F47Q10-I/PT because it is reliable, familiar, and satisfies all the requirements that a microcontroller needs for this project. This PIC supports I2C communication which is exactly what I need to communicate with my chosen OLED Display. UART is also available with this microcontroller which allows for my board to receive and send data from my teammate’s. In addition, the PIC had plenty of I/O pins for additional components such as debugging LEDs.
+
 ###PIC Table
 **PIC Info** | **Answer** 
 -------------|-----------
 Model | PIC18F47Q10-I/PT
 Product Page URL | ![Link to product](https://www.microchip.com/en-us/product/PIC18F47Q10)
 Datasheet URL | ![Link to product](https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F27-47Q10-Data-Sheet-40002043E.pdf)
-Application Notes URL(s) | TBD
+Application Notes URL(s) | ![Link to product](https://www.microchip.com/en-us/product/PIC18F47Q10)
 Vendor link | ![Link to product](https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47Q10-I-PT/10187786)
 Code Examples | TBD
 External Resources URL(s) | TBD
