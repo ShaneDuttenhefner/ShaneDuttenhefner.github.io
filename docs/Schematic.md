@@ -10,5 +10,4 @@ title: Schematic
 
 ##Power Budget
 
-![image](https://github.com/user-attachments/assets/a8f5e7c3-2ec6-4c5b-bfce-71972643f744)
-
+![image](https://github.com/user-attachments/assets/c0b12ffb-e191-4eec-aa4f-1b222106c010)
