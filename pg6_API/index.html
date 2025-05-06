@@ -92,6 +92,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#prefixsuffix" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -491,6 +496,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    API
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -500,6 +516,91 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prefixsuffix" class="md-nav__link">
+    Prefix/Suffix
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-addresses" class="md-nav__link">
+    Team Addresses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-sent" class="md-nav__link">
+    Messages Sent
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Sent">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#message-type-1-game-start" class="md-nav__link">
+    Message Type 1: Game Start
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#message-type-2-extend-actuator" class="md-nav__link">
+    Message Type 2: Extend Actuator
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-recieved" class="md-nav__link">
+    Messages Recieved
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Recieved">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#message-type-3-change-value" class="md-nav__link">
+    Message Type 3: Change Value
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#message-type-4-victoryreset" class="md-nav__link">
+    Message Type 4: Victory/Reset
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -585,6 +686,82 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prefixsuffix" class="md-nav__link">
+    Prefix/Suffix
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-addresses" class="md-nav__link">
+    Team Addresses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-sent" class="md-nav__link">
+    Messages Sent
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Sent">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#message-type-1-game-start" class="md-nav__link">
+    Message Type 1: Game Start
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#message-type-2-extend-actuator" class="md-nav__link">
+    Message Type 2: Extend Actuator
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-recieved" class="md-nav__link">
+    Messages Recieved
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Recieved">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#message-type-3-change-value" class="md-nav__link">
+    Message Type 3: Change Value
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#message-type-4-victoryreset" class="md-nav__link">
+    Message Type 4: Victory/Reset
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -608,79 +785,70 @@
 
   <h1>API</h1>
 
+<h2 id="prefixsuffix">Prefix/Suffix</h2>
 <table>
 <thead>
 <tr>
-<th><em>byte #</em></th>
-<th>byte 1</th>
-<th>byte 2</th>
-<th>byte 3</th>
-<th>byte 4</th>
-<th>byte 5</th>
-<th>byte 6</th>
-<th>byte 7</th>
-<th>byte 8</th>
+<th><em>Prefix</em></th>
+<th><em>Suffix</em></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><em>Variable Name</em></td>
-<td>input_pressure</td>
-<td>button_pushed</td>
-<td>set_target_pressure</td>
-<td>gamer_timer_value</td>
-<td>turn_OLED_on</td>
-<td>reset</td>
-<td>error</td>
-<td>status</td>
-</tr>
-<tr>
-<td><em>Variable Type</em></td>
-<td>uint16</td>
-<td>uint8</td>
-<td>uint8</td>
-<td>uint16</td>
-<td>uint8</td>
-<td>uint8</td>
-<td>uint8</td>
-<td>uint8</td>
-</tr>
-<tr>
-<td><em>Min Value</em></td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr>
-<td><em>Max Value</em></td>
-<td>100</td>
-<td>1</td>
-<td>100</td>
-<td>180</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-</tr>
-<tr>
-<td><em>Example</em></td>
-<td>20</td>
-<td>1</td>
-<td>30</td>
-<td>80</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
+<td>AZ</td>
+<td>YB</td>
 </tr>
 </tbody>
 </table>
-<p><a href="https://github.com/user-attachments/files/19415635/Message_Complience.zip">Software</a></p>
+<h2 id="team-addresses">Team Addresses</h2>
+<table>
+<thead>
+<tr>
+<th><em>Name</em></th>
+<th><em>Address</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OLED Display</td>
+<td>S</td>
+</tr>
+<tr>
+<td>Actuator</td>
+<td>J</td>
+</tr>
+<tr>
+<td>Broadcast (All)</td>
+<td>X</td>
+</tr>
+</tbody>
+</table>
+<h2 id="messages-sent">Messages Sent</h2>
+<h3 id="message-type-1-game-start">Message Type 1: Game Start</h3>
+<p>The OLED subsystem (Shane) alerts the actuator subsystem when the game has started.
+<em>Byte(s)</em> | <em>Variable Name</em> | <em>Variable Type</em> | <em>Min Value</em> | <em>Max Value</em> | <em>Example</em>
+--------|-----------------|-----------------|-------------|-------------|-----------
+1 | messagetypeone | char | 1 | 1 | 1
+2 | gamestart | char | 0 | 1 | 1</p>
+<h3 id="message-type-2-extend-actuator">Message Type 2: Extend Actuator</h3>
+<p>The OLED subsystem (Shane) sends the actuator subsystem a 0 or a 1. The 0 stops the actuator, the 1 tells the actuator to extend.
+<em>Byte(s)</em> | <em>Variable Name</em> | <em>Variable Type</em> | <em>Min Value</em> | <em>Max Value</em> | <em>Example</em>
+--------|-----------------|-----------------|-------------|-------------|-----------
+1 | messagetypetwo | char | 2 | 2 | 2
+2 | extendactuator | char | 0 | 1 | 1</p>
+<h2 id="messages-recieved">Messages Recieved</h2>
+<h3 id="message-type-3-change-value">Message Type 3: Change Value</h3>
+<p>Upon receiving a message to extend the actuator, the actuator will extend then wait a second before telling the OLED subsystem to change to a different target value.
+<em>Byte(s)</em> | <em>Variable Name</em> | <em>Variable Type</em> | <em>Min Value</em> | <em>Max Value</em> | <em>Example</em>
+--------|-----------------|-----------------|-------------|-------------|-----------
+1 | messagetypethree | char | 3 | 3 | 3
+2 | changevalue | char | 0 | 1 | 1</p>
+<h3 id="message-type-4-victoryreset">Message Type 4: Victory/Reset</h3>
+<p>This command tells the actuator to either extend or retract. The actuator extends when the pressure input equals the target pressure and retracts if the target is missed within time limit.
+<em>Byte(s)</em> | <em>Variable Name</em> | <em>Variable Type</em> | <em>Min Value</em> | <em>Max Value</em> | <em>Example</em>
+--------|-----------------|-----------------|-------------|-------------|-----------
+1 | messagetypefour | char | 4 | 4 | 4
+2 | stopgame | char | 0 | 1 | 1</p>
 
 
 
