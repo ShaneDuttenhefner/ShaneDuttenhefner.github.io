@@ -7,10 +7,10 @@ title: Component Selection
 
 **Solution** | **Pros** | **Cons**
 -------------|----------|----------
-![image](https://github.com/user-attachments/assets/23f383de-fb10-4f5c-bf63-eac755a74c98) <br> Option 1: NHD-C12832A1Z-FSW-FBW-3V3 <br> $12.78/each <br> ![Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12832A1Z-FSW-FBW-3V3/2059236)| -128x32 pixels <br> -36.00mm W x 12.00mm H screen <br> -White background with black text | -Smaller screen <br> -Smaller pixel count <br> -SPI <br> -Expensive
-![image](https://github.com/user-attachments/assets/c4d26d8e-07fe-49e2-87f0-afc1fec357c6) <br> Option 2: NHD-C12832A1Z-NSW-BBW-3V3 <br> $12.82/each <br> ![Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12832A1Z-NSW-BBW-3V3/2059235) | -128x32 pixels <br> -36.00mm W x 12.00mm H screen <br> -Blue background with white text | -Smaller screen <br> -Smaller pixel count <br> -SPI <br> -Expensive
-![image](https://github.com/user-attachments/assets/57250bf9-9072-4890-998a-d39ecc9d3044) <br> Option 3: NHD-C12864GG-RN-GBW <br> $13.32/each <br> ![Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12864GG-RN-GBW/1701323) | -128x60 pixels <br> -49.53mm W x 26.67mm H screen (Largest) <br> - I2C| -Grey background with black text <br> -Most expensive <br> -Parallel, 8-bit communication 
-![image](https://github.com/user-attachments/assets/64518cf7-5174-46cd-ad9c-1c1793bce1c5) <br> Option 4: B085WCRS7C <br> $13.99/five <br> ![Link to Product](https://www.amazon.com/Songhe-0-96-inch-I2C-Raspberry/dp/B085WCRS7C/) | -128x64 pixels <br>  -27mm x 27mm x 2 mm screen <br> -Less pins <br> -I2C | - Smaller screen <br> - White text on black background
+![image](https://github.com/user-attachments/assets/23f383de-fb10-4f5c-bf63-eac755a74c98) <br> Option 1: NHD-C12832A1Z-FSW-FBW-3V3 <br> $12.78/each <br> [Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12832A1Z-FSW-FBW-3V3/2059236)| -128x32 pixels <br> -36.00mm W x 12.00mm H screen <br> -White background with black text | -Smaller screen <br> -Smaller pixel count <br> -SPI <br> -Expensive
+![image](https://github.com/user-attachments/assets/c4d26d8e-07fe-49e2-87f0-afc1fec357c6) <br> Option 2: NHD-C12832A1Z-NSW-BBW-3V3 <br> $12.82/each <br> [Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12832A1Z-NSW-BBW-3V3/2059235) | -128x32 pixels <br> -36.00mm W x 12.00mm H screen <br> -Blue background with white text | -Smaller screen <br> -Smaller pixel count <br> -SPI <br> -Expensive
+![image](https://github.com/user-attachments/assets/57250bf9-9072-4890-998a-d39ecc9d3044) <br> Option 3: NHD-C12864GG-RN-GBW <br> $13.32/each <br> [Link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12864GG-RN-GBW/1701323) | -128x60 pixels <br> -49.53mm W x 26.67mm H screen (Largest) <br> - I2C| -Grey background with black text <br> -Most expensive <br> -Parallel, 8-bit communication 
+![image](https://github.com/user-attachments/assets/64518cf7-5174-46cd-ad9c-1c1793bce1c5) <br> Option 4: B085WCRS7C <br> $13.99/five <br> [Link to Product](https://www.amazon.com/Songhe-0-96-inch-I2C-Raspberry/dp/B085WCRS7C/) | -128x64 pixels <br>  -27mm x 27mm x 2 mm screen <br> -Less pins <br> -I2C | - Smaller screen <br> - White text on black background
 
 
 **Choice:** Option 4: B085WCRS7C Display
@@ -22,8 +22,8 @@ title: Component Selection
 
 **Solution** | **Pros** | **Cons**
 -------------|----------|----------
-![image](https://github.com/user-attachments/assets/714db880-d126-4c3a-bf43-cb2934ffc1db) <br> Option 1: TPS62172DSGR <br> $1.17/each <br> ![Link to Product](https://www.digikey.com/en/products/detail/texas-instruments/TPS62172DSGR/2833456) | -3.3V and 500mA <br> -Simple circuit(No diodes required. Only inductor) <br> -Fixed Voltage output | - Extremely Small (1.9mm x 1.9mm) <br> -Eight pins make it harder to surface mount with the size
-![image](https://github.com/user-attachments/assets/9386be08-d2ce-4632-9fd6-6180727e721f) <br> Option 2: LM2575T-3.3G <br> $2.99/each <br> ![Link to Product](https://www.digikey.com/en/products/detail/onsemi/LM2575T-3-3G/1476700) | -Fixed 3.3V ouput <br> -1A output current <br> -Familiarity | -Through hole <br> -Requires more components such as diodes
+![image](https://github.com/user-attachments/assets/714db880-d126-4c3a-bf43-cb2934ffc1db) <br> Option 1: TPS62172DSGR <br> $1.17/each <br> [Link to Product](https://www.digikey.com/en/products/detail/texas-instruments/TPS62172DSGR/2833456) | -3.3V and 500mA <br> -Simple circuit(No diodes required. Only inductor) <br> -Fixed Voltage output | - Extremely Small (1.9mm x 1.9mm) <br> -Eight pins make it harder to surface mount with the size
+![image](https://github.com/user-attachments/assets/9386be08-d2ce-4632-9fd6-6180727e721f) <br> Option 2: LM2575T-3.3G <br> $2.99/each <br> [Link to Product](https://www.digikey.com/en/products/detail/onsemi/LM2575T-3-3G/1476700) | -Fixed 3.3V ouput <br> -1A output current <br> -Familiarity | -Through hole <br> -Requires more components such as diodes
 
 **Choice** Option 1: TPS62172DSGR
 
@@ -33,8 +33,8 @@ title: Component Selection
 
 **Component** | **Pros** | **Cons**
 -------------|----------|----------
-![image](https://github.com/user-attachments/assets/64518cf7-5174-46cd-ad9c-1c1793bce1c5) <br> Option 4: B085WCRS7C <br> $13.99/five <br> ![Link to Product](https://www.amazon.com/Songhe-0-96-inch-I2C-Raspberry/dp/B085WCRS7C/) | -128x64 pixels <br>  -27mm x 27mm x 2 mm screen <br> -Less pins <br> -I2C | - Smaller screen <br> - White text on black background
-![image](https://github.com/user-attachments/assets/714db880-d126-4c3a-bf43-cb2934ffc1db) <br> Option 1: TPS62172DSGR <br> $1.17/each <br> ![Link to Product](https://www.digikey.com/en/products/detail/texas-instruments/TPS62172DSGR/2833456) | -3.3V and 500mA <br> -Simple circuit(No diodes required. Only inductor) <br> -Fixed Voltage output | - Extremely Small (1.9mm x 1.9mm) <br> -Eight pins make it harder to surface mount with the size
+![image](https://github.com/user-attachments/assets/64518cf7-5174-46cd-ad9c-1c1793bce1c5) <br> Option 4: B085WCRS7C <br> $13.99/five <br> [Link to Product](https://www.amazon.com/Songhe-0-96-inch-I2C-Raspberry/dp/B085WCRS7C/) | -128x64 pixels <br>  -27mm x 27mm x 2 mm screen <br> -Less pins <br> -I2C | - Smaller screen <br> - White text on black background
+![image](https://github.com/user-attachments/assets/714db880-d126-4c3a-bf43-cb2934ffc1db) <br> Option 1: TPS62172DSGR <br> $1.17/each <br> [Link to Product](https://www.digikey.com/en/products/detail/texas-instruments/TPS62172DSGR/2833456) | -3.3V and 500mA <br> -Simple circuit(No diodes required. Only inductor) <br> -Fixed Voltage output | - Extremely Small (1.9mm x 1.9mm) <br> -Eight pins make it harder to surface mount with the size
 
 
 ## Micro Controller
